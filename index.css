@@ -147,4 +147,9 @@ footer {
   .card-component {
     max-width: 384px;
   }
+
+  .card-profile-socials:hover {
+    background-color: var(--color4);
+    color: var(--color3);
+  }
 }
