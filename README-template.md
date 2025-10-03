@@ -39,9 +39,9 @@ Users should be able to:
 
 ### What I learned
 
-The use of variables was implemented in this challenge. Careful attention was put on gathering all the properties that needed variables in the style guide before ever putting style to elements. The ease of adding variables as values of properties in this way was substantial that I finished in a considerably fast time. Even having typed notes to look through as chacklist for what needs to be done made the styling process smoother.
+The use of variables was implemented in this challenge. Careful attention was put on gathering all the properties that needed variables in the style guide before ever putting style to elements. The ease of adding variables as values of properties in this way was substantial that I finished in a considerably fast time. Even having typed notes to look through as checklist for what needs to be done made the styling process smoother.
 
-Another useful skill practices was the use of font presets and the property value inherit. This made for less code repetition and clearer view of the CSS.
+Another useful skill practices was the use of font presets, and the property value inherit. This made for less code repetition and clearer view of the CSS.
 
 To see how you can add code snippets, see below:
 
