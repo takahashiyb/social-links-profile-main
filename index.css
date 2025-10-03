@@ -1,0 +1,137 @@
+/* Impporting fonts, then establishing presets */
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+.text-preset-one {
+  font-family: "Inter-Bold";
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.text-preset-two {
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.text-preset-two-bold {
+  font-family: "Inter-Bold";
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+/* Setting variables */
+
+:root {
+  --color1: rgb(20, 20, 20); /* Grey-900 */
+  --color2: rgb(31, 31, 31); /* Grey-800 */
+  --color3: rgb(51, 51, 51); /* Grey-700 */
+  --color4: rgb(196, 248, 42); /* Green */
+  --color5: rgb(255, 255, 255); /* White */
+  --spacing1: 4px;
+  --spacing2: 8px;
+  --spacing3: 12px;
+  --spacing4: 16px;
+  --spacing5: 24px;
+  --spacing6: 40px;
+  --image-size: 88px;
+  --border-radius1: 8px;
+  --border-radius2: 12px;
+}
+
+/* General Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+/* Styling */
+
+main {
+  height: 100vh;
+  width: 100vw;
+  place-items: center;
+  place-content: center;
+}
+
+.card-component {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--spacing5);
+  background-color: var(--color2);
+  padding: var(--spacing5);
+  border-radius: var(--border-radius2);
+}
+
+.card-profile-image {
+  height: var(--image-size);
+  width: var(--image-size);
+  border-radius: 50%;
+}
+
+.card-profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-profile-details-name {
+  color: var(--color5);
+}
+
+.card-profile-details-address {
+  color: var(--color4);
+}
+
+.card-profile-socials {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+.card-profile-bio {
+  color: var(--color5);
+}
+
+.card-profile-socials-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing4);
+}
+
+.card-profile-socials {
+  padding: var(--spacing3);
+  border-radius: var(--border-radius1);
+  background-color: var(--color3);
+  border-style: none;
+  color: var(--color5);
+}
+
+footer {
+  align-self: end;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

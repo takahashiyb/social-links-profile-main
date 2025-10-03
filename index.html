@@ -15,15 +15,9 @@
     <title>Frontend Mentor | Social links profile</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+
+    <link rel="stylesheet" href="./index.css" />
+    <style></style>
   </head>
   <body>
     <!-- <header>
@@ -31,24 +25,30 @@
     </header> -->
     <main>
       <div class="card-component">
-        <img
-          class="card-profile-image"
-          src="./assets/images/avatar-jessica.jpeg"
-          alt="profile-image"
-        />
-        <div class="card-profile-details">
-          <p class="card-profile-details-name">Jessica Randall</p>
-          <p class="card-profile-details-address">London, United Kingdom</p>
+        <div class="card-profile-image-container">
+          <img
+            class="card-profile-image"
+            src="./assets/images/avatar-jessica.jpeg"
+            alt="profile-image"
+          />
         </div>
-        <p class="card-profile-bio">"Front-end developer and avid reader."</p>
-        <div class="card-profile-socials-container">
-          <button class="card-profile-socials-github">GitHub</button>
-          <button class="card-profile-socials-frontend-mentor">
-            Frontend Mentor
-          </button>
-          <button class="card-profile-socials-linkedin">LinkedIn</button>
-          <button class="card-profile-socials-twitter">Twitter</button>
-          <button class="card-profile-socials-instagram">Instagram</button>
+        <div class="card-profile-details">
+          <p class="card-profile-details-name text-preset-one">
+            Jessica Randall
+          </p>
+          <p class="card-profile-details-address text-preset-two">
+            London, United Kingdom
+          </p>
+        </div>
+        <p class="card-profile-bio text-preset-two">
+          "Front-end developer and avid reader."
+        </p>
+        <div class="card-profile-socials-container text-preset-two-bold">
+          <button class="card-profile-socials">GitHub</button>
+          <button class="card-profile-socials">Frontend Mentor</button>
+          <button class="card-profile-socials">LinkedIn</button>
+          <button class="card-profile-socials">Twitter</button>
+          <button class="card-profile-socials">Instagram</button>
         </div>
       </div>
     </main>
